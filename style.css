@@ -18,5 +18,19 @@ body{
         flex-direction: column;
         align-items: center;
     }
+    .input-number{
+        width: 100%;
+        padding: 10px;
+        font-size: 26px;
+        border-radius: 20px;
+        border: none;
+        margin-bottom: 20px;
+        background-color: #ffffff;
+    }
+
+    .input-number:focus{
+        outline: none;
+        box-shadow: 0 0 5px #F79A1C;
+    }
 
 
