@@ -32,5 +32,30 @@ body{
         outline: none;
         box-shadow: 0 0 5px #F79A1C;
     }
+    .btn-container{
+        display: flex;
+        gap: 20px;
+    }
+
+    .btn{
+        padding: 8px 18px;
+        font-size: 22px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        color: white;
+    }
+
+    .btn-convert{
+        background-color: #F79A1C;
+    }
+
+    .btn-clear{
+        background-color: #CF0F0F;
+    }
+
+    .btn:hover{
+        opacity: 0.9;
+    }
 
 
