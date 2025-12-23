@@ -62,4 +62,33 @@ body{
         color: #CF0F0F;
         margin-bottom: 10px;
     }
+    @media screen and (max-width: 600px) {
+        .app-heading{
+            font-size: 34px;
+        }
+
+        .container{
+            width: 90%;
+            padding: 16px;
+        }
+
+        .input-number{
+            font-size: 22px;
+            padding: 8px;
+        }
+
+        #result{
+            font-size: 20px;
+        }
+
+        .btn-container{
+            flex-direction: column;
+            width: 100%;
+        }
+
+        .btn{
+            width: 100%;
+            font-size: 20px;
+        }
+    }
 
