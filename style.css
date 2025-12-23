@@ -2,3 +2,10 @@ body{
         background-color: #BBCB64;
         font-family: Arial, sans-serif;
     }
+.app-heading{
+        text-align: center;
+        color: #CF0F0F;
+        font-size: 48px;
+    }
+
+
